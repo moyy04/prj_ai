@@ -6,6 +6,10 @@ Problèmes :
 2. Die Hard (seaux d’eau) : mesurer exactement 4 litres avec des seaux de 5L et 3L.
 3. Problème des wagons : inverser la position de deux wagons à l’aide d’une locomotive et de voies de garage.
 
-Exécution : 
+Exécution :
 ```bash
+# Pour Loup – Chèvre – Salade
 java -cp talosExamples-0.4.1-SNAPSHOT-jar-with-dependencies.jar StateGraph -n N -print 1 -crossingRiver true -file fichier.xml
+
+# Le reste
+java -cp talosExamples-0.4.1-SNAPSHOT-jar-with-dependencies.jar StateGraph -n N -print 1 -file fichier.xml
